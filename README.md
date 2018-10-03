@@ -1,6 +1,8 @@
 # n4m-socket-demo
 
-This repository demonstrates how to use Node for Max to create a simple web sockets application with [`express`][xprss], [`socket.io`][sckt], and a public URL via [`ngrok`][ngrk].
+This repository demonstrates how to use Node for Max to create a simple websockets application with [`express`][xprss], [`socket.io`][sckt], and a public URL via [`ngrok`][ngrk].
+
+Be sure to also check out the examples in the official [Cycling ’74 `n4m-examples` repository][c74]!
 
 ## Set-up
 
@@ -36,6 +38,7 @@ This example uses the [`dotenv` Node package][.env] to load the variables declar
 
 To get a token you should [sign up for an ngrok account][ngrknew]. Once you have an account, [go get your authtoken][ngrkauth].
 
+[c74]: https://github.com/Cycling74/n4m-examples
 [ngrk]: https://ngrok.com/
 [ngrknew]: https://dashboard.ngrok.com/user/signup
 [ngrkauth]: https://dashboard.ngrok.com/auth
